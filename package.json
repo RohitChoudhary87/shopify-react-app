@@ -1,0 +1,28 @@
+{
+  "name": "shopify",
+  "version": "1.0.0",
+  "description": "shop and checkout",
+  "main": "index.tsx",
+  "scripts": {
+    "dev:build": "webpack --progress --display-exclude --watch",
+    "dev:server": "webpack-dev-server"
+  },
+  "author": "rohit",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^16.0.18",
+    "@types/react-dom": "^16.0.2",
+    "@types/react-router-dom": "^4.0.8",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^3.2.3",
+    "file-loader": "^1.1.5",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.5.3",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.3"
+  }
+}
