@@ -5,30 +5,61 @@
     <meta charset="UTF-8" />
     <title>Shopify</title>
     <style>
-        section.shopping-item {
+        section.shopping-item,
+        section.apply-promo-code,
+        section.checkout-details section {
+            padding: 5px;
             overflow: hidden;
             width: 100%;
         }
 
-        section.shopping-item input {
+        section.shopping-item input,
+        section.apply-promo-code input {
             width: 30px;
+            text-align: center;
         }
 
         section.shopping-item img {
+            width: 60px;
             height: 70px;
         }
 
         body {
-            font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
         }
 
-        section.shopping-item div {
+        main section {
+            font-size: 13px;
+        }
+
+        section.shopping-item div,
+        section.apply-promo-code div,
+        section.checkout-details div {
             float: left;
-            padding: 3px;
+            padding: 2px;
+        }
+
+        section.apply-promo-code div,
+        section.checkout-details div {
+            padding-top: 20px;
+        }
+
+        section.shopping-item section {
+            padding-top: 15px;
+            font-size: 10px;
         }
 
         main>div {
-            margin-left: 100px;
+            min-width: 700px;
+            max-width: 1200px;
+            width: 100%;
+            margin-left: 50px;
+        }
+
+        span.pricing-content .strike-through {
+            text-decoration: line-through;
+            padding-right: 10px;
+            font-size: 9px;
         }
     </style>
 </head>

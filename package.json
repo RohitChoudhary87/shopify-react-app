@@ -5,7 +5,7 @@
   "main": "index.tsx",
   "scripts": {
     "dev:build": "webpack --progress --display-exclude --watch",
-    "dev:server": "webpack-dev-server"
+    "dev:server": "webpack-dev-server --profile --progress"
   },
   "author": "rohit",
   "license": "ISC",
